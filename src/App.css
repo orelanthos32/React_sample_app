@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.app-header{
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  padding:0.4rem;
+}
