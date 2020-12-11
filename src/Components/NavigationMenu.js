@@ -17,13 +17,6 @@ function NavigationMenu(props){
                     </Link>
                 </li>
                 <li>
-                    <Link to="/about" 
-                    className="text-blue-500 p-3 border-t border-b block"
-                    onClick= {(props.closeMenu)}>
-                        About Us
-                    </Link>
-                </li>
-                <li>
                     <Link to="/Contact" 
                     className="text-blue-500 p-3 border-t border-b block"
                     onClick= {(props.closeMenu)}>
@@ -31,10 +24,24 @@ function NavigationMenu(props){
                     </Link>
                 </li>
                 <li>
-                    <Link to="/ApiProg/3" 
+                    <Link to="/Transaction" 
                     className="text-blue-500 p-3 border-t border-b block"
                     onClick= {(props.closeMenu)}>
                         ApiProg
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/Transfer" 
+                    className="text-blue-500 p-3 border-t border-b block"
+                    onClick= {(props.closeMenu)}>
+                        Transfer
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/ViewBalance" 
+                    className="text-blue-500 p-3 border-t border-b block"
+                    onClick= {(props.closeMenu)}>
+                        ViewBalance
                     </Link>
                 </li>
             </ul>

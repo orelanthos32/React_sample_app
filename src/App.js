@@ -12,9 +12,10 @@ import React from 'react';
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 import Home from './Views/Home'
-import About from './Views/About'
+import About from './Views/Transaction'
 import Contact from './Views/ContactUs'
-import ApiProg from './Views/Apiprog'
+import ApiProg from './Views/Transfer'
+import ViewBalance from './Views/ViewBalance';
 function App() {
   return (
       <div>
@@ -26,14 +27,17 @@ function App() {
               <Route exact path="/">
                 <Home/>
               </Route>
-              <Route path="/about">
+              <Route path="/Transaction">
                 <About/>
               </Route>
               <Route path="/Contact">
                 <Contact/>
               </Route>
-              <Route path="/ApiProg/3">
+              <Route path="/Transfer">
                 <ApiProg/>
+              </Route>
+              <Route path="/ViewBalance">
+                <ViewBalance/>
               </Route>
             </Switch>
           </div>
