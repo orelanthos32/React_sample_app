@@ -2,7 +2,7 @@ import React,{useState, useEffect} from 'react'
 import axios from 'axios'
 import {useParams} from 'react-router-dom'
 
-function ApiProg(){
+function Transfer(){
     //set the URL
     const {id} =useParams()
     const URL =`https://5e9623dc5b19f10016b5e31f.mockapi.io/api/v1/products/3`
@@ -47,4 +47,4 @@ function ApiProg(){
                 </div>
         )
 }
-export default ApiProg
+export default Transfer
